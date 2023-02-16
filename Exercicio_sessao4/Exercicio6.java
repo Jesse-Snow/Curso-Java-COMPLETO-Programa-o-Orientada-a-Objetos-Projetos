@@ -10,6 +10,7 @@ import java.util.Scanner;
 
 public class Exercicio6{
     public static void main(String[] args){
+        Scanner scn = new Scanner(System.in);
         double A = scn.nextDouble();
         scn.nextLine();
         double B = scn.nextDouble();

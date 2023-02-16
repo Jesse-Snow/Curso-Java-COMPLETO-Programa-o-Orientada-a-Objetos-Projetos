@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Exercicio1{
+public class Exercicio2{
     public static void main(String[] args){
   		int A = 6;
         if(A%2 == 0 ){

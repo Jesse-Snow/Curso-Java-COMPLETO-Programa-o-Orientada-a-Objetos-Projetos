@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class Exercicio1{
+public class Exercicio3{
     public static void main(String[] args){
   		int A = 6;
         int B = 5;
