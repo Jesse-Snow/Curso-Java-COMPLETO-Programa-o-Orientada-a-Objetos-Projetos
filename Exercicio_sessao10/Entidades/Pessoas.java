@@ -4,6 +4,10 @@ public class Pessoas {
     private String nome;
     private int idade;
     private Double altura;
+    private String sexo;
+
+    public Pessoas(){
+    }
 
     public Pessoas(String nome){
         this.nome = nome;
@@ -34,5 +38,12 @@ public class Pessoas {
     }
     public void setAltura(Double altura){
         this.altura = altura;
+    }
+
+    public String getSexo(){
+        return this.sexo;
+    }
+    public void setSexo(String sexo){
+        this.sexo = sexo;
     }
 }
