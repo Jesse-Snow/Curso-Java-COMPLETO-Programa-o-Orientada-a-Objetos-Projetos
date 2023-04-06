@@ -5,6 +5,7 @@ public class Employee{
     public Double rawSalary;
     public Double tax;
     public Double rise;
+    private String id;
 
     public Double netSalary(){
         Double result = this.rawSalary - this.tax;
@@ -19,5 +20,17 @@ public class Employee{
         Double raiseTotal = (rawSalary / 100) * this.rise;
         return netSalary() + raiseTotal ;
     }
+    public Double increaseSalary(Double taxAmount){
+            taxAmount = this.rise;
+            Double raiseTotal = (rawSalary / 100) * taxAmount;
+            this.rawSalary += raiseTotal;
+            return raiseTotal;
+    }
     
+    public String getId(){
+        return this.id;
+    }
+    public void setId(String id){
+        this.id = id;
+    }
 }
